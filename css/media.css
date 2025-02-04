@@ -478,3 +478,25 @@
         gap: 9px;
     }
 }
+
+@media (min-width: 768px) {
+    .products__container {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .questions__container {
+        padding-top: 48px;
+    }
+}
+
+@media (min-width: 1401px) {
+    .products__container {
+        padding-top: 68px;
+        padding-bottom: 68px;
+    }
+
+    .questions__container {
+        padding-top: 68px;
+    }
+}
