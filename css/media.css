@@ -173,6 +173,10 @@
         top: 14px;
     }
 
+    .input__icon-ok {
+        top: 14px;
+    }
+
     .textarea__container textarea {
         border-radius: 8px;
         padding: 12px 16px;

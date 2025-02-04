@@ -85,11 +85,20 @@ document.getElementById("form").addEventListener("submit", (e) => {
   if (isValid) {
     document.getElementById("modal").style.display = "flex";
     inputs.forEach((input) => {
-        input.value = ''
+        input.value = '';
+        input.classList.remove("green");
     });
 
     clearButtons.forEach((button) => {
       button.style.display = "none";
+    });
+
+    document.querySelectorAll(".input__label-ok").forEach((label) => {
+      label.style.display = "none";
+    });
+
+    document.querySelectorAll(".input__icon-ok").forEach((icon) => {
+      icon.style.display = "none";
     });
 
     agreeCheckbox.checked = !agreeCheckbox.checked;
